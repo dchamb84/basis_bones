@@ -1,0 +1,15 @@
+defaults: &execution_defaults
+ default_config: local
+#korea config
+local:
+  <<: *execution_defaults
+   # site name
+  country_site: Mr Porter
+  #capybara settings
+  default_wait_time: 4
+  #urls
+  #site_root: http://www.mrporter.com/
+  site_root: http://reltesta.dave.mrporter.com
+  #user details
+  admin_username: 'test.admin'
+  admin_password: 'password'
