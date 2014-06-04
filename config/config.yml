@@ -9,7 +9,7 @@ local:
   default_wait_time: 4
   #urls
   #site_root: http://www.mrporter.com/
-  site_root: http://reltesta.dave.mrporter.com
+  site_root:
   #user details
   admin_username: 'test.admin'
   admin_password: 'password'
